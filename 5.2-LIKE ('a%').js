@@ -1,4 +1,4 @@
-SQL (2022.03.29) - Mimo app (SQL - LIKE)
+SQL (2022.03.29) - Mimo app (SQL - LIKE 'a%')
 
 ______________________________
 | writers                    |
