@@ -32,3 +32,37 @@ WHERE price <= 2;
                              
                              
 *------------------------------------------------------------------*/
+___________________________________
+| pollution                       |
+-----------------------------------
+| city          | pollution_index |
+-----------------------------------
+| Delhi         | 168             |
+-----------------------------------
+| Milano        | 122             |
+-----------------------------------
+| Shanghai      | 74              |
+-----------------------------------
+| Tokyo         | 21              |
+-----------------------------------
+                             
+// select items where the "pollution_index" is less than 100
+SELECT *
+FROM pollution
+WHERE pollution_index < 100;
+// city        pollution_index    
+// Shanghai    74
+// Tokyo       21
+
+
+// select items where the "pollution_index" is less than 100
+SELECT *
+FROM pollution
+WHERE pollution_index < 150;
+// city        pollution_index    
+// Milano      122
+// Shanghai    74
+// Tokyo       21
+                             
+                             
+                             
