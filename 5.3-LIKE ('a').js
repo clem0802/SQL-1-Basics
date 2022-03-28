@@ -13,3 +13,12 @@ ______________________________
 ------------------------------
 | Mark          | Twain      |
 ------------------------------
+
+// with a pattern like 'a' we can have only "A, Milne"
+// the first_name has no other letter beside 'a'
+SELECT *
+FROM writers
+WHERE first_name LIKE 'a';
+// first_name      last_name    
+// A               Milne
+
