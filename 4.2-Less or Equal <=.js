@@ -1,4 +1,4 @@
-SQL (2022.03.28) - Mimo app (SQL - Inequality <>)
+SQL (2022.03.28) - Mimo app (SQL - Less than or Equal to <=)
                              
 ___________________________________
 | chocolate                       |
