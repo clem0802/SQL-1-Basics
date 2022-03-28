@@ -34,9 +34,24 @@ FROM subscribers;
 
 
 /*------------------------------------------------------------------*/
+________________________________
+| favorites                    |
+--------------------------------
+| song          | gnere        |
+--------------------------------
+| All Blues     | jazz         |
+--------------------------------
+| What goes on  | art rock     |
+-------------------------------
+| Sure Shot     | hiop hop     |
+--------------------------------
+| Giant Steps   | jazz         |
+--------------------------------
+// Use "DISTINCT" to find out what music genres this user listens to 
+// (the genre "jazz" will not repeat twice)
+SELECT DISTINCT gnere
+FROM favorites;
 
-
-/*------------------------------------------------------------------*/
 
 
 
