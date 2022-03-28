@@ -1,4 +1,4 @@
-SQL (2022.02.12) - Mimo app
+SQL (2022.02.12) - Mimo app (SQL - Rows and Columns)
 // many apps we interact with store data like a username, password, or friends list
 // this kind of data lives in a "database"
 // most databases are collections of "tables" storing different pieces of data
