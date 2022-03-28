@@ -13,9 +13,10 @@ ____________________________________
 ------------------------------------
 // if we want to filter for items that satisfy a condition, 
 // like only students majoring in Biology
+// after = use ' '  (SIMPLE quotes)
 SELECT *
 FROM students
-WHERE major = "Biology";
+WHERE major = 'Biology';
 // name            year   major
 // Ava Smith       1      Biology
 // Hans Theophin   3      Biology
@@ -41,7 +42,7 @@ FROM membershiop;
 
 SELECT *
 FROM membershiop
-WHERE type = "pro";
+WHERE type = 'pro';
 // name    email             type
 // Remy    rem@mail.com      pro
 // Kim     kim_22@mail.com   pro
