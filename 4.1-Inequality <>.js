@@ -1,4 +1,5 @@
 SQL (2022.03.28) - Mimo app (SQL - Inequality <>)
+                             
 // sometimes we want to select data that doesn't satisfy a condition
 // like all students that are not in their first year
 ____________________________________
