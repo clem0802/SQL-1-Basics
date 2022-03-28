@@ -1,4 +1,5 @@
 SQL (2022.03.29) - Mimo app (SQL - LIKE 'a%')
+// "%" is a  => "WILDCARD"
 
 ______________________________
 | writers                    |
@@ -24,6 +25,19 @@ WHERE first_name LIKE 'a%';
 // first_name      last_name    
 // A               Milne
 // Anne            Tyler
+
+
+// this % matches any text of any length, any text of zero or more characters
+// so all first_name that contains a letter "A"
+SELECT *
+FROM writers
+WHERE first_name LIKE '%';
+// first_name      last_name    
+// A               Milne
+// Ursula          Le Guin
+// Anne            Tyler
+// Mark            Twain
+
 
 
 /*------------------------------------------------------------------*/
