@@ -1,4 +1,4 @@
-SQL (2022.03.29) - Mimo app (SQL - AND)
+SQL (2022.03.29) - Mimo app (SQL - AND(i))
 
 __________________________________
 | students                        |
