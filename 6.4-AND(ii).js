@@ -39,7 +39,8 @@ ________________________________
 | 4    | Jaguar         | 1955 |
 --------------------------------
 
-// this query selects: items manufactured by either For or Jaguar
+// this query selects: 
+// items manufactured by either For or Jaguar
 // between the years 1950 and 1960
 SELECT *
 FROM inventory
