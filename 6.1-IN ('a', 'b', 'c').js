@@ -1,4 +1,6 @@
 SQL (2022.03.29) - Mimo app (SQL - IN)
+// after "IN" keyword, we code the options between parentheses => ()
+// with conditions equal to EITHER '1st one' OR '2nd cone'
 
 ______________________________
 | customers                  |
@@ -15,7 +17,7 @@ ______________________________
 ------------------------------
 // use "IN" keyword to specify options when intende for (Germany OR France)
 // after "IN" keyword, we code the options between parentheses => ()
-// the two conditions are separately inside simple quotes => 'France','Germany'
+// with conditions equal to EITHER 'France' OR 'Germany'
 SELECT *
 FROM customers
 WHERE country IN ('France', 'Germany');
