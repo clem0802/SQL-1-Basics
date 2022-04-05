@@ -17,6 +17,7 @@ ______________________________
 
 // use "LIKE" to check if values in a column follows a "pattern"
 // and this is ONLY for "TEXT" values
+// we CANNOT use LIKE for "NUMERICAL" values
 // the text after the "LIKE" keyword is a "pattern", like 'a%' below
 // a pattern is a piece of text we want the values in a column to match
 SELECT *
