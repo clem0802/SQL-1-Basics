@@ -130,7 +130,43 @@ WHERE year NOT BETWEEN 1950 AND 1970;
 // 2     Bentley         2019
 
 
+/*-----------------------------------------------------*/
+// Using the cities table, filter for all cities except London
+// two queries give the SAME result
+SELECT *
+FROM cities
+WHERE city NOT IN ('London');
+
+SELECT *
+FROM cities
+WHERE city <> 'London';
 
 
+/*-----------------------------------------------------*/
+// we can also use "!=" for inequality
+SELECT *
+FROM books
+WHERE genre != 'fiction' AND 'year < 1990;
 
+
+/*-----------------------------------------------------*/
+// both queries select items with a "year" of EITHER 1950 OR 2020
+SELECT * 
+FROM books
+WHERE year IN (1950, 2020);
+
+SELECT * 
+FROM books
+WHERE year = 1950 OR year = 2020;
+
+
+/*-----------------------------------------------------*/
+// Modify your query to search for cars with prices in the $200 range.  => AND (price LIKE '$2%')
+// Wrap this condition in parentheses following the AND.  => AND (price LIKE '$2%')
+SELECT *
+FROM cars
+WHERE no_available <> 0
+AND seats >= 5
+AND ((features LIKE '%AWD%') OR (features LIKE '%FWD%' AND features LIKE '%Winter Tires%'))
+AND (price LIKE '$2%')
 
